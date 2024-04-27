@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hospital management system</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- header section start -->
+    <header class="text-gray-800 nav">
+      <nav class="fixed bg-[#07ccec] w-full z-50 flex items-center justify-between px-12 h-14 lg:gap-6">
+        <a class="font-bold text-2xl whitespace-nowrap" href=""
+          ><span><i class="fa-solid fa-hand-holding-medical"></i></span
+          >Hospital</a
+        >
+        <div
+          id="nav_item"
+          class="absolute top-14 lg:pb-0 pb-10 hidden lg:block left-0 w-full text-center lg:flex flex-col max-lg:bg-[#07ccec] lg:text-[17px] text-xl lg:static lg:flex-row lg:justify-between"
+        >
+          <ul
+            class="space-y-2 mt-2 lg:flex-row flex flex-col lg:gap-5 font-semibold"
+          >
+            <li class="lg:mt-2 hover:text-[#27477d] duration-300">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="hover:text-[#27477d] duration-300">
+              <a href="about.html">About</a>
+            </li>
+            <li class="hover:text-[#27477d] duration-300">
+              <a href="doctor.html">Doctors</a>
+            </li>
+            <li class="hover:text-[#27477d] duration-300">
+              <a href="departments.html">Departments</a>
+            </li>
+            <li class="hover:text-[#27477d] duration-300">
+              <a href="blog.html">Blog</a>
+            </li>
+            <li class="hover:text-[#27477d] duration-300">
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <div
+            class="flex flex-col space-y-2 mt-2 mb-3 lg:flex-row lg:gap-5 lg:ml-24 cursor-pointer font-semibold"
+          >
+          <a class="lg:mt-2 hover:text-[#27477d] duration-300" href="login.html">Login</a>
+          <a class="hover:text-[#27477d] duration-300" href="register.html">SignUp</a>
+          </div>
+          <a class="px-6 py-1 bg-gray-800 font-semibold text-[#07ccec] rounded-sm my-2"
+              href="appointment .html">Appoinment</a>
+        </div>
+        <div id="hamberger" class="text-xl lg:hidden cursor-pointer">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+  <!-- header section end -->
+    <main class="">
+      <!-- about banner section start-->
+      <section>
+        <img
+          class="w-full lg:h-[17.5rem] h-[16rem]"
+          src="./img/contact1.png"
+          alt=""
+        />
+        <div
+          class="space-y-4 text-xl overlay3 w-[100%] h-[12.5rem] lg:h-[34.5vh] text-white text-center justify-center lg:pt-20 pt-12"
+        >
+          <h1 class="text-gray-50 font-semibold text-4xl tracking-widest">
+            Contact
+          </h1>
+          <div class="flex text-center justify-center space-x-2">
+            <h1>Home</h1>
+            <p>/</p>
+            <h1 class="text-[#07ccec]">Contact</h1>
+          </div>
+        </div>
+      </section>
+      <!-- about banner section end-->
+
+      <!-- Appointment section start-->
+      <section class="bg-[#f1f5f9]">
+        <div class="py-10 lg:px-40 px-10">
+          <h2
+            class="footer_title tracking-wide text-center text-[#e12454] pt-3 font-bold text-2xl"
+          >
+            Contact Us
+          </h2>
+          <h4 class="text-center pb-10 pt-5 text-xl">
+            Choose Our Hospital Choose The Best Care For Yourself
+          </h4>
+          <div
+            class="lg:flex lg:space-x-10 lg:space-y-0 space-y-8 cursor-pointer"
+          >
+            <!-- contact info -->
+            <div class="lg:w-1/3 bg-[#07ccec] rounded-md py-10">
+              <h1 class="text-center text-gray-700 font-bold text-2xl tracking-wider">Contact Info</h1>
+              <div class="mt-4 mx-10">
+                <div class="text-center">
+                  <i class="fa-solid fa-phone-volume text-xl text-[#e12454]"></i>
+                  <p class="text-gray-700">0175323762</p>
+                </div>
+                <div class="text-center mt-3">
+                  <i class="fa-solid fa-envelope text-xl text-[#e12454]"></i>
+                  <p class="text-gray-700">info@gmail.com</p>
+                </div>
+                <div class="text-center mt-3">
+                  <i class="fa-solid fa-location-dot text-xl text-[#e12454]"></i>
+                  <p class="text-gray-700">sirajgonj, sadar</p>
+                </div>
+                <div class="space-x-2 mt-5 text-center">
+                  <a href=""><i
+                    class="fa-brands fa-facebook bg-gray-700 text-[#07ccec] p-1.5 rounded-md text-[1.1rem] hover:text-gray-700 hover:bg-transparent duration-300 border-2 border-gray-700 cursor-pointer"
+                  ></i></a>
+                  <a href=""><i
+                    class="fa-brands fa-linkedin bg-gray-700 text-[#07ccec] p-1.5 rounded-md text-[1.1rem] hover:text-gray-700 hover:bg-transparent duration-300 border-2 border-gray-700 cursor-pointer"
+                  ></i></a>
+                  <a href=""><i
+                    class="fa-brands fa-x-twitter bg-gray-700 text-[#07ccec] p-1.5 rounded-md text-[1.1rem] hover:text-gray-700 hover:bg-transparent duration-300 border-2 border-gray-700 cursor-pointer"
+                  ></i></a>
+                </div>
+              </div>
+            </div>          
+            <!-- appointment -->
+            <div class="lg:w-1/2">
+              <h1 class="font-semibold text-xl text-gray-600">
+                Book An Appointment
+              </h1>
+              <div class="text-black">
+                <div class="flex mt-5">
+                  <span
+                    class="inline-flex items-center px-3 text-sm bg-[#07ccec] border rounded-e-0 border-[#07ccec] border-e-0 rounded-s-md"
+                  >
+                  <i class="fa-solid fa-user text-[#e12454] text-lg"></i>
+                  </span>
+                  <input
+                    type="text"
+                    id="website-admin"
+                    class="rounded-none rounded-e-lg bg-transparent border-2 text-gray-900 w-full text-sm border-[#07ccec] p-2.5 outline-none"
+                    placeholder="your name"
+                  />
+                </div>
+
+                <div class="flex mt-5">
+                  <span
+                    class="inline-flex items-center px-3 text-sm bg-[#07ccec] border rounded-e-0 border-[#07ccec] border-e-0 rounded-s-md"
+                  >
+                  <i class="fa-solid fa-envelope text-[#c12454] text-lg"></i>
+                  </span>
+                  <input
+                    type="email"
+                    id="website-admin"
+                    class="rounded-none rounded-e-lg bg-transparent border-2 text-gray-900 w-full text-sm border-[#07ccec] p-2.5 outline-none"
+                    placeholder="your email"
+                  />
+                </div>
+
+                <div class="flex mt-5">
+                  <span
+                    class="inline-flex items-center px-3 text-sm bg-[#07ccec] border rounded-e-0 border-[#07ccec] border-e-0 rounded-s-md"
+                  >
+                  <i class="fa-solid fa-phone-volume text-[#c12454] text-lg"></i>
+                  </span>
+                  <input
+                    type="text"
+                    id="website-admin"
+                    class="rounded-none rounded-e-lg bg-transparent border-2 text-gray-900 w-full text-sm border-[#07ccec] p-2.5 outline-none"
+                    placeholder="your phone number"
+                  />
+                </div>
+
+                <div class="flex mt-5">
+                 <textarea name="" id="" class="rounded-lg bg-transparent border-2 text-gray-600 w-full text-sm border-[#07ccec] p-2.5 outline-none" placeholder="Type Appiontment Note..."></textarea>
+                </div>
+
+                <div class="mt-5">
+                  <a
+                    class="px-6 py-2 min-w-[120px] text-center text-gray-600 border-2 border-[#07ccec] rounded hover:bg-[#07ccec] hover:text-black active:bg-indigo-500 focus:outline-none focus:ring duration-500"
+                    href="/download"
+                  >
+                  Get In Touch!
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Appointment section end-->
+
+      <div>
+        <iframe class="w-full" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14527.341267688464!2d89.7035361!3d24.4564983!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fdea7442bffdd7%3A0x22024fb81061e39d!2sAvicenna%20Hospital!5e0!3m2!1sen!2sbd!4v1714022656599!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </main>
+    <!-- footer section start -->
+    <footer class="">
+      <div class="overlay">
+        <div class="lg:flex justify-between px-10">
+          <div class="lg:w-[25%] lg:my-10 text-white">
+            <h1 class="footer_title font-bold text-2xl pt-7 lg:pt-0">
+              About Us
+            </h1>
+            <p class="text-justify my-5">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Voluptatum, distinctio.
+            </p>
+            <div class="flex">
+              <i class="fa-solid fa-envelope text-[#07ccec] text-xl"></i>
+              <p class="pl-2">01884858245</p>
+            </div>
+            <div class="flex mt-2">
+              <i class="fa-solid fa-phone-volume text-[#07ccec] text-xl"></i>
+              <p class="pl-2">info@gmial.com</p>
+            </div>
+          </div>
+          <div class="my-10 text-white">
+            <h1 class="footer_title font-bold text-2xl">Visiting Houres</h1>
+            <div
+              class="flex justify-between mt-5 border-b-2 border-dotted pb-1"
+            >
+              <span>Mon-Fri</span>
+              <p class="pl-2">8:00 am - 8:00 pm</p>
+            </div>
+            <div
+              class="flex justify-between mt-3 border-b-2 border-dotted pb-1"
+            >
+              <span>Saturday</span>
+              <p class="pl-2">9:00 am - 6:00 pm</p>
+            </div>
+            <div
+              class="flex justify-between mt-3 border-b-2 border-dotted pb-1"
+            >
+              <span>Sunday</span>
+              <p class="pl-2">9:00 am - 4:00 pm</p>
+            </div>
+            <div class="flex mt-4">
+              <i class="fa-solid fa-location-dot text-[#07ccec] text-xl"></i>
+              <p class="pl-2">our location</p>
+            </div>
+          </div>
+          <div class="my-10 text-white">
+            <h1 class="footer_title font-bold text-2xl">Quick Link</h1>
+            <div class="mt-5">
+              <ul class="d-grid gap-2 q-link">
+                <li>
+                  <i class="fa-solid fa-angle-right"></i> <a href="">Home</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-angle-right"></i> <a href="">About</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-angle-right"></i> <a href="">Blog</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-angle-right"></i>
+                  <a href="">Contract</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="my-10 text-white">
+            <h1 class="footer_title font-bold text-2xl">Gallery Posts</h1>
+            <div class="flex justify-between pb-1 mt-5 gap-2">
+              <img
+                src="https://www.lumahealth.com/wp-content/uploads/2023/09/Chiang-Mai-hospitals.jpg"
+                width="70"
+                height="70"
+                alt=""
+              />
+              <img
+                src="https://www.lumahealth.com/wp-content/uploads/2023/09/Chiang-Mai-hospitals.jpg"
+                width="70"
+                height="70"
+                alt=""
+              />
+            </div>
+            <div class="flex justify-between pb-1 mt-1 gap-2">
+              <img
+                src="https://www.lumahealth.com/wp-content/uploads/2023/09/Chiang-Mai-hospitals.jpg"
+                width="70"
+                height="70"
+                alt=""
+              />
+              <img
+                src="https://www.lumahealth.com/wp-content/uploads/2023/09/Chiang-Mai-hospitals.jpg"
+                width="70"
+                height="70"
+                alt=""
+              />
+            </div>
+
+            <div class="space-x-2 mt-5">
+              <i
+                class="fa-brands fa-facebook text-[#1877F2] bg-[#07ccec] p-2 rounded-md text-[1.3rem] hover:bg-transparent duration-300 border-2 border-[#07ccec] cursor-pointer"
+              ></i>
+              <i
+                class="fa-brands fa-linkedin text-[#0077b5] bg-[#07ccec] p-2 rounded-md text-[1.3rem] hover:bg-transparent duration-300 border-2 border-[#07ccec] cursor-pointer"
+              ></i>
+              <i
+                class="fa-brands fa-x-twitter text-black bg-[#07ccec] p-2 rounded-md text-[1.3rem] hover:bg-transparent duration-300 border-2 border-[#07ccec] cursor-pointer"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div class="text-white text-center text-md bg-[#07ccec] py-3">
+          &copy; <a href="#">toufiqur</a>, All Right Reserved.
+        </div>
+      </div>
+    </footer>
+    <!-- footer section end -->
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

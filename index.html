@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hospital management system</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- header section start -->
+    <header class="text-gray-800 nav">
+      <nav class="fixed bg-[#07ccec] w-full z-50 flex items-center justify-between px-12 h-14 lg:gap-6">
+        <a class="font-bold text-2xl whitespace-nowrap" href=""
+          ><span><i class="fa-solid fa-hand-holding-medical"></i></span
+          >Hospital</a
+        >
+        <div
+          id="nav_item"
+          class="absolute top-14 lg:pb-0 pb-10 hidden lg:block left-0 w-full text-center lg:flex flex-col max-lg:bg-[#07ccec] lg:text-[17px] text-xl lg:static lg:flex-row lg:justify-between"
+        >
+          <ul
+            class="space-y-2 mt-2 lg:flex-row flex flex-col lg:gap-5 font-semibold"
+          >
+            <li class="lg:mt-2 hover:text-[#27477d] duration-300">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="hover:text-[#27477d] duration-300">
+              <a href="about.html">About</a>
+            </li>
+            <li class="hover:text-[#27477d] duration-300">
+              <a href="doctor.html">Doctors</a>
+            </li>
+            <li class="hover:text-[#27477d] duration-300">
+              <a href="departments.html">Departments</a>
+            </li>
+            <li class="hover:text-[#27477d] duration-300">
+              <a href="blog.html">Blog</a>
+            </li>
+            <li class="hover:text-[#27477d] duration-300">
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <div
+            class="flex flex-col space-y-2 mt-2 mb-3 lg:flex-row lg:gap-5 lg:ml-24 cursor-pointer font-semibold"
+          >
+          <a class="lg:mt-2 hover:text-[#27477d] duration-300" href="login.html">Login</a>
+          <a class="hover:text-[#27477d] duration-300" href="register.html">SignUp</a>
+          </div>
+          <a class="px-6 py-1 bg-gray-800 font-semibold text-[#07ccec] rounded-sm my-2"
+              href="appointment .html">Appoinment</a>
+        </div>
+        <div id="hamberger" class="text-xl lg:hidden cursor-pointer">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+  <!-- header section end -->
+
+    <main class="bg-[#cbd5e1]">
+      <!-- carousel slider  start-->
+      <section class="hero_slider">
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img
+              class="w-[100%] lg:h-[58.5vh] h-[42vh]"
+              src="./img/1.jpg"
+              alt=""
+            />
+          </div>
+
+          <div class="mySlides fade">
+            <img
+              class="w-[100%] lg:h-[58.5vh] h-[42vh]"
+              src="./img/2.jpg"
+              alt=""
+            />
+          </div>
+
+          <div class="mySlides fade">
+            <img
+              class="w-[100%] lg:h-[58.5vh] h-[42vh]"
+              src="./img/3.png"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div style="text-align: center" class="hidden">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+
+        <div
+          class="overlay2 w-[100%] lg:h-[50vh] h-[36vh] text-white text-center lg:pt-28 pt-16"
+        >
+          <h1>Welcome To Our Hospital</h1>
+          <h1 class="text-3xl">
+            Taking Care Of Your Health Is Our Top Priority
+          </h1>
+          <div class="flex space-x-5 justify-center mt-5">
+            <a
+              class="px-6 py-2 min-w-[120px] text-center text-black bg-[#07ccec] border-2 border-[#07ccec] rounded active:text-violet-500 hover:bg-transparent hover:text-[#07ccec] focus:outline-none focus:ring duration-500"
+              href="doctor.html"
+            >
+              Find Doctors
+            </a>
+
+            <a
+              class="px-6 py-2 min-w-[120px] text-center text-white border-2 border-[#07ccec] rounded hover:bg-[#07ccec] hover:text-black active:bg-indigo-500 focus:outline-none focus:ring duration-500"
+              href="appointment .html"
+            >
+              Make an Appoinment
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- carousel slider  end-->
+
+      <!-- about us section start-->
+      <section class="py-10 px-10 bg-gray-100">
+        <h2
+          class="footer_title text-center text-[#e12454] pt-3 font-bold text-2xl"
+        >
+          About Us Hospital
+        </h2>
+        <h4 class="text-center pb-10 pt-5 text-xl">
+          Choose Our Hospital Choose The Best Care For Yourself
+        </h4>
+        <div class="lg:flex lg:gap-5">
+          <div class="lg:w-[150%]">
+            <img src="./img/final-01.png" alt="" />
+          </div>
+          <div>
+            <div class="mt-5">
+              <h4>Welcome To Our Hospital</h4>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit
+                maxime voluptatem ratione aliquid exercitationem a repellendus
+                quia aperiam dolores quidem veniam illo sit, ex alias corporis
+                eius dignissimos ipsa. Eum?
+              </p>
+
+              <div class="mt-5 space-y-2">
+                <div class="flex gap-3">
+                  <i
+                    class="fa-solid fa-envelope text-xl text-white bg-[#07ccec] hover:bg-[#4a6ab3] duration-300 cursor-pointer rounded-full p-2 w-10 h-10 justify-center flex"
+                  ></i>
+                  <p class="text-[1.2rem]">admin@gmail.com</p>
+                </div>
+                <div class="flex gap-3">
+                  <i
+                    class="fa-solid fa-phone text-xl text-white bg-[#07ccec] hover:bg-[#4a6ab3] duration-300 cursor-pointer rounded-full p-2 w-10 h-10 justify-center flex"
+                  ></i>
+                  <p class="text-[1.2rem]">01884858245</p>
+                </div>
+                <div class="flex gap-3">
+                  <i
+                    class="fa-solid fa-truck-medical text-xl text-white bg-[#07ccec] hover:bg-[#4a6ab3] duration-300 cursor-pointer rounded-full p-2 w-10 h-10 justify-center flex"
+                  ></i>
+                  <p class="text-[1.2rem]">24/7 Emergency</p>
+                </div>
+              </div>
+              <a href="about.html">
+                <button
+                class="mt-5 bg-[#07ccec] py-2 px-4 rounded-md hover:bg-[#4a6ab3] hover:text-white duration-300"
+              >
+                More About Us
+              </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- about us section end-->
+
+      <!-- work process section start-->
+      <section class="mt-10 lg:px-32 px-20">
+        <h2 class="footer_title text-center text-[#e12454] font-bold text-2xl">
+          Work Process
+        </h2>
+        <h4 class="text-center pb-10 pt-5 text-xl">
+          Let`s See How We Work Process
+        </h4>
+
+        <div class="lg:flex lg:space-x-10 space-x-0 space-y-10 lg:space-y-0">
+          <div class="text-center work_p">
+            <div class="relative">
+              <img
+                class="rounded-full ring-4 ring-green-400 w-img duration-500"
+                src="./img/work_process1-01.png"
+                alt=""
+              />
+              <h3
+                class="absolute top-0 right-0 bg-green-400 py-[1rem] px-[1.3rem] rounded-full text-white font-bold"
+              >
+                01
+              </h3>
+            </div>
+            <div>
+              <h2 class="text-[1.3rem] pb-2 text-[#000d44] pt-3">
+                Patient Registration
+              </h2>
+              <p class="text-justify">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptatem sapiente molestiae quia, obcaecati officiis in!
+              </p>
+            </div>
+          </div>
+
+          <div class="text-center work_p">
+            <div class="relative">
+              <img
+                class="rounded-full ring-4 ring-[#07ccec] w-img duration-500"
+                src="./img/work_process2-01.png"
+                alt=""
+              />
+              <h3
+                class="absolute top-0 right-0 bg-[#07ccec] py-[1rem] px-[1.3rem] rounded-full text-white font-bold"
+              >
+                02
+              </h3>
+            </div>
+            <div>
+              <h2 class="text-[1.3rem] pb-2 text-[#000d44] pt-3">
+                Patient Check Up
+              </h2>
+              <p class="text-justify">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptatem sapiente molestiae quia, obcaecati officiis in!
+              </p>
+            </div>
+          </div>
+          <div class="text-center work_p">
+            <div class="relative">
+              <img
+                class="rounded-full ring-4 ring-green-400 w-img duration-500"
+                src="./img/work_process3-01.png"
+                alt=""
+              />
+              <h3
+                class="absolute top-0 right-0 bg-green-400 py-[1rem] px-[1.3rem] rounded-full text-white font-bold"
+              >
+                03
+              </h3>
+            </div>
+            <div>
+              <h2 class="text-[1.3rem] pb-2 text-[#000d44] pt-3">
+                Patient Get Report
+              </h2>
+              <p class="text-justify">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptatem sapiente molestiae quia, obcaecati officiis in!
+              </p>
+            </div>
+          </div>
+          <div class="text-center work_p">
+            <div class="relative">
+              <img
+                class="rounded-full ring-4 ring-[#07ccec] w-img duration-500"
+                src="./img/work_process4-01.png"
+                alt=""
+              />
+              <h3
+                class="absolute top-0 right-0 bg-[#07ccec] py-[1rem] px-[1.3rem] rounded-full text-white font-bold"
+              >
+                04
+              </h3>
+            </div>
+            <div>
+              <h2 class="text-[1.3rem] pb-2 text-[#000d44] pt-3">
+                On Going Care
+              </h2>
+              <p class="text-justify">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptatem sapiente molestiae quia, obcaecati officiis in!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- work process section end-->
+
+      <!-- doctors section start-->
+      <section class="mt-10 lg:px-20 px-10 bg-[#f1f5f9] py-14">
+        <h2 class="footer_title text-center text-[#e12454] font-bold text-2xl">
+          Expert Doctors
+        </h2>
+        <h4 class="text-center pb-10 pt-5 text-xl">
+          Meet Our Professional Doctors
+        </h4>
+
+        <div class="lg:flex lg:space-x-4 space-y-5 lg:space-y-0">
+          <div
+            class="text-center lg:w-1/4 lg:h-[18.55rem] p-4 pt-5 bg-[#cbd5e1] cursor-pointer hover:bg-[#07ccec] service rounded-md"
+          >
+            <a href="doctorDetails .html">
+              <div class="relative">
+                <img
+                  class=""
+                  src="https://thumbs.dreamstime.com/b/positive-millennial-man-casual-outfit-street-confident-handsome-young-unshaven-guy-t-shirt-arms-crossed-leaning-pole-231496570.jpg"
+                  alt=""
+                />
+                <div
+                  class="d-info absolute bottom-0 bg-[#07ccec] w-full h-auto pb-3 overflow-hidden"
+                >
+                  <h2 class="text-[1.3rem] text-[#000d44] pt-3">Dr. John Doe</h2>
+                  <p class="">Medicine</p>
+                  <div class="d-icon mb-[-2.6rem] duration-500">
+                    <i
+                      class="fa-brands fa-facebook text-[#1877F2] p-2 text-[1.3rem] cursor-pointer"
+                    ></i>
+                    <i
+                      class="fa-brands fa-linkedin text-[#0077b5] p-2 text-[1.3rem] cursor-pointer"
+                    ></i>
+                    <i
+                      class="fa-brands fa-x-twitter text-black p-2 text-[1.3rem] cursor-pointer"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div
+            class="text-center lg:w-1/4 lg:h-[18.55rem] p-4 pt-5 bg-[#cbd5e1] cursor-pointer hover:bg-[#07ccec] service rounded-md"
+          >
+            <a href="doctorDetails .html">
+              <div class="relative">
+                <img
+                  class=""
+                  src="https://thumbs.dreamstime.com/b/positive-millennial-man-casual-outfit-street-confident-handsome-young-unshaven-guy-t-shirt-arms-crossed-leaning-pole-231496570.jpg"
+                  alt=""
+                />
+                <div
+                  class="d-info absolute bottom-0 bg-[#07ccec] w-full h-auto pb-3 overflow-hidden"
+                >
+                  <h2 class="text-[1.3rem] text-[#000d44] pt-3">Dr. John Doe</h2>
+                  <p class="">Medicine</p>
+                  <div class="d-icon mb-[-2.6] duration-500">
+                    <i
+                      class="fa-brands fa-facebook text-[#1877F2] p-2 text-[1.3rem] cursor-pointer"
+                    ></i>
+                    <i
+                      class="fa-brands fa-linkedin text-[#0077b5] p-2 text-[1.3rem] cursor-pointer"
+                    ></i>
+                    <i
+                      class="fa-brands fa-x-twitter text-black p-2 text-[1.3rem] cursor-pointer"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="text-center lg:w-1/4 lg:h-[18.55rem] p-4 pt-5 bg-[#cbd5e1] cursor-pointer hover:bg-[#07ccec] service rounded-md"
+          >
+            <a href="doctorDetails .html">
+              <div class="relative">
+                <img
+                  class=""
+                  src="https://thumbs.dreamstime.com/b/positive-millennial-man-casual-outfit-street-confident-handsome-young-unshaven-guy-t-shirt-arms-crossed-leaning-pole-231496570.jpg"
+                  alt=""
+                />
+                <div
+                  class="d-info absolute bottom-0 bg-[#07ccec] w-full h-auto pb-3 overflow-hidden"
+                >
+                  <h2 class="text-[1.3rem] text-[#000d44] pt-3">Dr. John Doe</h2>
+                  <p class="">Medicine</p>
+                  <div class="d-icon mb-[-2.6] duration-500">
+                    <i
+                      class="fa-brands fa-facebook text-[#1877F2] p-2 text-[1.3rem] cursor-pointer"
+                    ></i>
+                    <i
+                      class="fa-brands fa-linkedin text-[#0077b5] p-2 text-[1.3rem] cursor-pointer"
+                    ></i>
+                    <i
+                      class="fa-brands fa-x-twitter text-black p-2 text-[1.3rem] cursor-pointer"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="text-center lg:w-1/4 lg:h-[18.55rem] p-4 pt-5 bg-[#cbd5e1] cursor-pointer hover:bg-[#07ccec] service rounded-md"
+          >
+            <a href="doctorDetails .html">
+              <div class="relative">
+                <img
+                  class=""
+                  src="https://thumbs.dreamstime.com/b/positive-millennial-man-casual-outfit-street-confident-handsome-young-unshaven-guy-t-shirt-arms-crossed-leaning-pole-231496570.jpg"
+                  alt=""
+                />
+                <div
+                  class="d-info absolute bottom-0 bg-[#07ccec] w-full h-auto pb-3 overflow-hidden"
+                >
+                  <h2 class="text-[1.3rem] text-[#000d44] pt-3">Dr. John Doe</h2>
+                  <p class="">Medicine</p>
+                  <div class="d-icon mb-[-2.6] duration-500">
+                    <i
+                      class="fa-brands fa-facebook text-[#1877F2] p-2 text-[1.3rem] cursor-pointer"
+                    ></i>
+                    <i
+                      class="fa-brands fa-linkedin text-[#0077b5] p-2 text-[1.3rem] cursor-pointer"
+                    ></i>
+                    <i
+                      class="fa-brands fa-x-twitter text-black p-2 text-[1.3rem] cursor-pointer"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <a class="float-right mt-4 hover:text-[#07ccec] duration-300" href="doctor.html"
+          >Explor All Doctors >></a
+        >
+      </section>
+      <!-- doctors section end-->
+
+      <!-- services section start-->
+      <section class="lg:px-20 px-10 py-14">
+        <h2 class="footer_title text-center text-[#e12454] font-bold text-2xl">
+          Our Services
+        </h2>
+        <h4 class="text-center pb-10 pt-5 text-xl">
+          Our Specialties Technical Service
+        </h4>
+
+        <div class="lg:flex lg:space-x-1.5 space-y-5 lg:space-y-0">
+          <a href="departmentDetails .html"><div
+            class="text-center px-5 py-7 bg-[#f1f5f9] cursor-pointer hover:bg-[#07ccec] duration-300 service rounded-md"
+          >
+            <div class="relative">
+              <i
+                class="fa-solid fa-capsules s-icon duration-500 text-white text-5xl bg-[#07ccec] px-4 py-5 rounded-full"
+              ></i>
+            </div>
+            <div>
+              <h2 class="text-[1.3rem] pb-2 text-[#000d44] pt-3">Medicine</h2>
+              <p class="text-justify">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptatem sapiente molestiae quia, obcaecati officiis in!
+              </p>
+              <div class="mt-4">
+                <a
+                  class="read px-6 py-2 min-w-[120px] text-center bg-[#07ccec] rounded text-white hover:bg-[#f1f5f9] hover:text-black duration-500"
+                  href="/download"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div></a>
+
+          <a href="departmentDetails .html"><div
+            class="text-center px-5 py-7 bg-[#f1f5f9] cursor-pointer hover:bg-[#07ccec] duration-300 service rounded-md"
+          >
+            <div class="relative">
+              <i
+                class="fa-solid fa-tooth s-icon duration-500 text-white text-5xl bg-[#07ccec] p-5 rounded-full"
+              ></i>
+            </div>
+            <div>
+              <h2 class="text-[1.3rem] pb-2 text-[#000d44] pt-3">
+                Dental Care
+              </h2>
+              <p class="text-justify">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptatem sapiente molestiae quia, obcaecati officiis in!
+              </p>
+              <div class="mt-4">
+                <a
+                  class="read px-6 py-2 min-w-[120px] text-center bg-[#07ccec] rounded text-white hover:bg-[#f1f5f9] hover:text-black duration-500"
+                  href="/download"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div></a>
+
+          <a href="departmentDetails .html"><div
+            class="text-center px-5 py-7 bg-[#f1f5f9] cursor-pointer hover:bg-[#07ccec] duration-300 service rounded-md"
+          >
+            <div class="relative">
+              <i
+                class="fa-solid fa-eye s-icon duration-500 text-white text-5xl bg-[#07ccec] px-4 py-5 rounded-full"
+              ></i>
+            </div>
+            <div>
+              <h2 class="text-[1.3rem] pb-2 text-[#000d44] pt-3">Eye Care</h2>
+              <p class="text-justify">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptatem sapiente molestiae quia, obcaecati officiis in!
+              </p>
+              <div class="mt-4">
+                <a
+                  class="read px-6 py-2 min-w-[120px] text-center bg-[#07ccec] rounded text-white hover:bg-[#f1f5f9] hover:text-black duration-500"
+                  href="/download"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div></a>
+
+          <a href="departmentDetails .html"><div
+            class="text-center px-5 py-7 bg-[#f1f5f9] cursor-pointer hover:bg-[#07ccec] duration-300 service rounded-md"
+          >
+            <div class="relative">
+              <i
+                class="fa-solid fa-heart-pulse s-icon duration-500 text-white text-5xl bg-[#07ccec] p-4 rounded-full"
+              ></i>
+            </div>
+            <div>
+              <h2 class="text-[1.3rem] pb-2 text-[#000d44] pt-3">Cardiology</h2>
+              <p class="text-justify">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptatem sapiente molestiae quia, obcaecati officiis in!
+              </p>
+              <div class="mt-4">
+                <a
+                  class="read px-6 py-2 min-w-[120px] text-center bg-[#07ccec] rounded text-white hover:bg-[#f1f5f9] hover:text-black duration-500"
+                  href="/download"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div></a>
+        </div>
+        <a class="float-right mt-4 hover:text-[#07ccec] duration-300" href="departments.html"
+          >Explor All Services >></a
+        >
+      </section>
+      <!-- services section end-->
+
+      <!-- testimonial slider  start-->
+      <section class="bg-[#f1f5f9] py-10">
+        <div class="swiper mySwiper overflow-hidden lg:mx-[5rem] my-10">
+          <h2
+            class="footer_title text-center text-[#e12454] font-bold text-2xl"
+          >
+            Testimonials
+          </h2>
+          <h4 class="text-center pb-10 pt-5 text-xl">
+            What Our Customers Says?
+          </h4>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div
+                class="lg:w-[90%] mx-5 py-5 t-deltels hover:bg-[#07ccec] duration-300 cursor-pointer bg-[#cbd5e1] rounded-md space-y-4 mt-5"
+              >
+                <p class="mx-10 text-justify">
+                  <i class="fa-solid fa-quote-left"></i>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Veniam assumenda fuga sed recusandae quas quisquam sunt
+                  blanditiis aut ratione laboriosam.
+                </p>
+
+                <div class="flex mx-10 mt-9 lg:mt-0 space-x-4">
+                  <div>
+                    <img
+                      class="w-20 h-20 rounded-[50%]"
+                      src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?cs=srgb&dl=pexels-italo-melo-881954-2379004.jpg&fm=jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <h1>sobuj</h1>
+                    <h1>Web Devloper</h1>
+                    <div class="text-[#fec624]">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div
+                class="lg:w-[90%] mx-5 py-5 t-deltels hover:bg-[#07ccec] duration-300 cursor-pointer bg-[#cbd5e1] rounded-md space-y-4 mt-5"
+              >
+                <p class="mx-10 text-justify">
+                  <i class="fa-solid fa-quote-left"></i>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Veniam assumenda fuga sed recusandae quas quisquam sunt
+                  blanditiis aut ratione laboriosam.
+                </p>
+
+                <div class="flex mx-10 mt-9 lg:mt-0 space-x-4">
+                  <div>
+                    <img
+                      class="w-20 h-20 rounded-[50%]"
+                      src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?cs=srgb&dl=pexels-italo-melo-881954-2379004.jpg&fm=jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <h1>sobuj</h1>
+                    <h1>Web Devloper</h1>
+                    <div class="text-[#fec624]">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div
+                class="lg:w-[90%] mx-5 py-5 t-deltels hover:bg-[#07ccec] duration-300 cursor-pointer bg-[#cbd5e1] rounded-md space-y-4 mt-5"
+              >
+                <p class="mx-10 text-justify">
+                  <i class="fa-solid fa-quote-left"></i>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Veniam assumenda fuga sed recusandae quas quisquam sunt
+                  blanditiis aut ratione laboriosam.
+                </p>
+
+                <div class="flex mx-10 mt-9 lg:mt-0 space-x-4">
+                  <div>
+                    <img
+                      class="w-20 h-20 rounded-[50%]"
+                      src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?cs=srgb&dl=pexels-italo-melo-881954-2379004.jpg&fm=jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <h1>sobuj</h1>
+                    <h1>Web Devloper</h1>
+                    <div class="text-[#fec624]">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div
+                class="lg:w-[90%] mx-5 py-5 t-deltels hover:bg-[#07ccec] duration-300 cursor-pointer bg-[#cbd5e1] rounded-md space-y-4 mt-5"
+              >
+                <p class="mx-10 text-justify">
+                  <i class="fa-solid fa-quote-left"></i>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Veniam assumenda fuga sed recusandae quas quisquam sunt
+                  blanditiis aut ratione laboriosam.
+                </p>
+
+                <div class="flex mx-10 mt-9 lg:mt-0 space-x-4">
+                  <div>
+                    <img
+                      class="w-20 h-20 rounded-[50%]"
+                      src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?cs=srgb&dl=pexels-italo-melo-881954-2379004.jpg&fm=jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <h1>sobuj</h1>
+                    <h1>Web Devloper</h1>
+                    <div class="text-[#fec624]">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- testimonial slider  end-->
+
+      <!-- blog section start-->
+      <section class="py-14">
+        <h2 class="footer_title text-center text-[#e12454] font-bold text-2xl">
+          Our Blog
+        </h2>
+        <h4 class="text-center pb-10 pt-5 text-xl">Our Latest News & Blogs</h4>
+
+        <div class="lg:flex lg:space-x-5 space-y-5 lg:space-y-0 lg:mx-20 mx-5">
+          <a href="blogDetails.html"><div
+            class="bg-[#07ccec] lg:w-1/3 news overflow-hidden cursor-pointer rounded-md"
+          >
+            <div class="news_banner duration-300">
+              <img src="./img/blog-1.jpg" alt="" />
+            </div>
+            <div class="relative p-5">
+              <div class="flex justify-between">
+                <h1>Sobuj</h1>
+                <p>22 April 2024</p>
+              </div>
+              <h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Blanditiis, consectetur.
+              </h3>
+              <div class="mt-5">
+                <a
+                  class="read px-6 py-2 min-w-[120px] text-center bg-[#f1f5f9] rounded text-[#07ccec] border-2 border-[#f1f5f9] hover:bg-transparent hover:text-black duration-500"
+                  href="/download"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div></a>
+
+          <a href="blogDetails.html"><div
+            class="bg-[#07ccec] lg:w-1/3 news overflow-hidden cursor-pointer rounded-md"
+          >
+            <div class="news_banner duration-300">
+              <img src="./img/blog-1.jpg" alt="" />
+            </div>
+            <div class="relative p-5">
+              <div class="flex justify-between">
+                <h1>Sobuj</h1>
+                <p>22 April 2024</p>
+              </div>
+              <h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Blanditiis, consectetur.
+              </h3>
+              <div class="mt-5">
+                <a
+                  class="read px-6 py-2 min-w-[120px] text-center bg-[#f1f5f9] rounded text-[#07ccec] border-2 border-[#f1f5f9] hover:bg-transparent hover:text-black duration-500"
+                  href="/download"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div></a>
+
+          <a href="blogDetails.html"><div
+            class="bg-[#07ccec] lg:w-1/3 news overflow-hidden cursor-pointer rounded-md"
+          >
+            <div class="news_banner duration-300">
+              <img src="./img/blog-1.jpg" alt="" />
+            </div>
+            <div class="relative p-5">
+              <div class="flex justify-between">
+                <h1>Sobuj</h1>
+                <p>22 April 2024</p>
+              </div>
+              <h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Blanditiis, consectetur.
+              </h3>
+              <div class="mt-5">
+                <a
+                  class="read px-6 py-2 min-w-[120px] text-center bg-[#f1f5f9] rounded text-[#07ccec] border-2 border-[#f1f5f9] hover:bg-transparent hover:text-black duration-500"
+                  href="/download"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div></a>
+
+        </div>
+        <a
+          class="float-right mx-20 mt-4 hover:text-[#07ccec] duration-300"
+          href="blog.html"
+          >Explor All Blogs >></a
+        >
+      </section>
+      <!-- blog section end-->
+
+      <!-- Appointment section start-->
+      <section class="bg-[#f1f5f9]">
+        <div class="py-10 lg:px-20 px-10">
+          <h2
+            class="footer_title tracking-wide text-center text-[#e12454] pt-3 font-bold text-2xl"
+          >
+            Appointment
+          </h2>
+          <h4 class="text-center pb-10 pt-5 text-xl">
+            Choose Our Hospital Choose The Best Care For Yourself
+          </h4>
+          <div
+            class="lg:flex lg:space-x-10 lg:space-y-0 space-y-8 cursor-pointer"
+          >
+            <div class="lg:w-1/2 lg:mt-10 bg-[#07ccec] rounded-md">
+              <img class="h-[25.5rem]" src="./img/appmointment.png" alt="" />
+            </div>
+            <div class="lg:w-1/2">
+              <h1 class="font-semibold text-xl text-gray-600">
+                Book An Appointment
+              </h1>
+              <div class="text-black">
+                <div class="flex mt-5">
+                  <span
+                    class="inline-flex items-center px-3 text-sm bg-[#07ccec] border rounded-e-0 border-[#07ccec] border-e-0 rounded-s-md"
+                  >
+                  <i class="fa-solid fa-user text-[#e12454] text-lg"></i>
+                  </span>
+                  <input
+                    type="text"
+                    id="website-admin"
+                    class="rounded-none rounded-e-lg bg-transparent border-2 text-gray-900 w-full text-sm border-[#07ccec] p-2.5 outline-none"
+                    placeholder="your name"
+                  />
+                </div>
+
+                <div class="flex mt-5">
+                  <span
+                    class="inline-flex items-center px-3 text-sm bg-[#07ccec] border rounded-e-0 border-[#07ccec] border-e-0 rounded-s-md"
+                  >
+                  <i class="fa-solid fa-envelope text-[#c12454] text-lg"></i>
+                  </span>
+                  <input
+                    type="email"
+                    id="website-admin"
+                    class="rounded-none rounded-e-lg bg-transparent border-2 text-gray-900 w-full text-sm border-[#07ccec] p-2.5 outline-none"
+                    placeholder="your email"
+                  />
+                </div>
+
+                <div class="flex mt-5">
+                  <span
+                    class="inline-flex items-center px-3 text-sm bg-[#07ccec] border rounded-e-0 border-[#07ccec] border-e-0 rounded-s-md"
+                  >
+                  <i class="fa-solid fa-phone-volume text-[#c12454] text-lg"></i>
+                  </span>
+                  <input
+                    type="text"
+                    id="website-admin"
+                    class="rounded-none rounded-e-lg bg-transparent border-2 text-gray-900 w-full text-sm border-[#07ccec] p-2.5 outline-none"
+                    placeholder="your phone number"
+                  />
+                </div>
+
+                <div class="flex mt-5">
+                  <span
+                    class="inline-flex items-center px-3 text-sm bg-[#07ccec] border rounded-e-0 border-[#07ccec] border-e-0 rounded-s-md"
+                  >
+                  <i class="fa-solid fa-calendar-days text-[#e12454] text-lg"></i>
+                  </span>
+                  <input
+                    type="date"
+                    id="website-admin"
+                    class="rounded-none rounded-e-lg bg-transparent border-2 text-gray-500 w-full text-sm border-[#07ccec] p-2.5 outline-none"
+                    placeholder="your phone number"
+                  />
+                </div>
+
+                <div class="flex mt-5">
+                  <span
+                    class="inline-flex items-center px-3 text-sm bg-[#07ccec] border rounded-e-0 border-[#07ccec] border-e-0 rounded-s-md"
+                  >
+                  <i class="fa-solid fa-clock text-[#e12454] text-lg"></i>
+                  </span>
+                  <input
+                    type="time"
+                    id="website-admin"
+                    class="rounded-none rounded-e-lg bg-transparent border-2 text-gray-500 w-full text-sm border-[#07ccec] p-2.5 outline-none"
+                    placeholder="your phone number"
+                  />
+                </div>
+
+                <div class="pt-3">
+                  <select
+                    class="w-full flex flex-row justify-between pl-5 py-2.5 text-gray-500 bg-transparent border-2 border-[#07ccec] rounded-md shadow outline-none text-sm"
+                  >
+                    <option value="Choice Department" selected>
+                      Choice Department
+                    </option>
+                    <option value="">sobuj1</option>
+                    <option value="">sobuj2</option>
+                    <option value="">sobuj3</option>
+                    <option value="">sobuj4</option>
+                  </select>
+                </div>
+
+                <div class="mt-5">
+                  <a
+                    class="px-6 py-2 min-w-[120px] text-center text-gray-600 border-2 border-[#07ccec] rounded hover:bg-[#07ccec] hover:text-black active:bg-indigo-500 focus:outline-none focus:ring duration-500"
+                    href="/download"
+                  >
+                  Get In Touch!
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="lg:w-1/3">
+              <div class="text-gray-600">
+                <h1 class="font-semibold text-xl">Working Houres</h1>
+                <div
+                  class="flex justify-between mt-5 border-b-2 border-dotted pb-1"
+                >
+                  <span>Mon-Fri</span>
+                  <p class="pl-2">8:00 am - 8:00 pm</p>
+                </div>
+                <div
+                  class="flex justify-between mt-3 border-b-2 border-dotted pb-1"
+                >
+                  <span>Saturday</span>
+                  <p class="pl-2">9:00 am - 6:00 pm</p>
+                </div>
+                <div
+                  class="flex justify-between mt-3 border-b-2 border-dotted pb-1"
+                >
+                  <span>Sunday</span>
+                  <p class="pl-2">9:00 am - 4:00 pm</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Appointment section end-->
+
+      <div class="f-banner">
+        <div class="overlay-b text-center lg:pt-[6%] pt-[10%]">
+          <h4 class="text-xl">Need a Doctor for Check-up?</h4>
+          <h1 class="text-3xl text-bold text-[#e12454]">
+            Just Make An Appointment
+          </h1>
+          <div class="mt-5">
+            <a
+              class="px-6 py-2 min-w-[120px] text-center text-black border-2 border-[#f1f5f9] rounded hover:bg-[#f1f5f9] hover:text-black active:bg-indigo-500 focus:outline-none focus:ring duration-500"
+              href="appointment .html"
+            >
+              Make an Appoinment
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer section start -->
+    <footer class="">
+      <div class="overlay">
+        <div class="lg:flex justify-between px-10">
+          <div class="lg:w-[25%] lg:my-10 text-white">
+            <h1 class="footer_title font-bold text-2xl pt-7 lg:pt-0">
+              About Us
+            </h1>
+            <p class="text-justify my-5">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Voluptatum, distinctio.
+            </p>
+            <div class="flex">
+              <i class="fa-solid fa-envelope text-[#07ccec] text-xl"></i>
+              <p class="pl-2">01884858245</p>
+            </div>
+            <div class="flex mt-2">
+              <i class="fa-solid fa-phone-volume text-[#07ccec] text-xl"></i>
+              <p class="pl-2">info@gmial.com</p>
+            </div>
+          </div>
+          <div class="my-10 text-white">
+            <h1 class="footer_title font-bold text-2xl">Visiting Houres</h1>
+            <div
+              class="flex justify-between mt-5 border-b-2 border-dotted pb-1"
+            >
+              <span>Mon-Fri</span>
+              <p class="pl-2">8:00 am - 8:00 pm</p>
+            </div>
+            <div
+              class="flex justify-between mt-3 border-b-2 border-dotted pb-1"
+            >
+              <span>Saturday</span>
+              <p class="pl-2">9:00 am - 6:00 pm</p>
+            </div>
+            <div
+              class="flex justify-between mt-3 border-b-2 border-dotted pb-1"
+            >
+              <span>Sunday</span>
+              <p class="pl-2">9:00 am - 4:00 pm</p>
+            </div>
+            <div class="flex mt-4">
+              <i class="fa-solid fa-location-dot text-[#07ccec] text-xl"></i>
+              <p class="pl-2">our location</p>
+            </div>
+          </div>
+          <div class="my-10 text-white">
+            <h1 class="footer_title font-bold text-2xl">Quick Link</h1>
+            <div class="mt-5">
+              <ul class="d-grid gap-2 q-link">
+                <li>
+                  <i class="fa-solid fa-angle-right"></i> <a href="">Home</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-angle-right"></i> <a href="">About</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-angle-right"></i> <a href="">Blog</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-angle-right"></i>
+                  <a href="">Contract</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="my-10 text-white">
+            <h1 class="footer_title font-bold text-2xl">Gallery Posts</h1>
+            <div class="flex justify-between pb-1 mt-5 gap-2">
+              <img
+                src="https://www.lumahealth.com/wp-content/uploads/2023/09/Chiang-Mai-hospitals.jpg"
+                width="70"
+                height="70"
+                alt=""
+              />
+              <img
+                src="https://www.lumahealth.com/wp-content/uploads/2023/09/Chiang-Mai-hospitals.jpg"
+                width="70"
+                height="70"
+                alt=""
+              />
+            </div>
+            <div class="flex justify-between pb-1 mt-1 gap-2">
+              <img
+                src="https://www.lumahealth.com/wp-content/uploads/2023/09/Chiang-Mai-hospitals.jpg"
+                width="70"
+                height="70"
+                alt=""
+              />
+              <img
+                src="https://www.lumahealth.com/wp-content/uploads/2023/09/Chiang-Mai-hospitals.jpg"
+                width="70"
+                height="70"
+                alt=""
+              />
+            </div>
+
+            <div class="space-x-2 mt-5">
+              <i
+                class="fa-brands fa-facebook text-[#1877F2] bg-[#07ccec] p-2 rounded-md text-[1.3rem] hover:bg-transparent duration-300 border-2 border-[#07ccec] cursor-pointer"
+              ></i>
+              <i
+                class="fa-brands fa-linkedin text-[#0077b5] bg-[#07ccec] p-2 rounded-md text-[1.3rem] hover:bg-transparent duration-300 border-2 border-[#07ccec] cursor-pointer"
+              ></i>
+              <i
+                class="fa-brands fa-x-twitter text-black bg-[#07ccec] p-2 rounded-md text-[1.3rem] hover:bg-transparent duration-300 border-2 border-[#07ccec] cursor-pointer"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div class="text-white text-center text-md bg-[#07ccec] py-3">
+          &copy; <a href="#">toufiqur</a>, All Right Reserved.
+        </div>
+      </div>
+    </footer>
+    <!-- footer section end -->
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
